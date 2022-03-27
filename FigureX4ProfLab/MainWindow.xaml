@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FigureX4ProfLab"
         mc:Ignorable="d"
-        Title="FigureX4ProfLab" MinHeight="200" Height="200" MinWidth="470" Width="470" WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip" FontSize="12" SizeToContent="WidthAndHeight">
+        Title="FigureX4ProfLab" MinHeight="200" Height="200" MinWidth="490" Width="490" WindowStartupLocation="CenterScreen" ResizeMode="CanResizeWithGrip" FontSize="12" SizeToContent="WidthAndHeight">
     <DockPanel LastChildFill="False">
         <Menu DockPanel.Dock="Top">
-            <MenuItem x:Name="FindKind" Header="Узнать вид" Click="FindKind_Click"/>
-            <MenuItem x:Name="Help" Header="Справка" Click="Help_Click"/>
-            <MenuItem x:Name="AboutProgram" Header="О программе"/>
+            <MenuItem x:Name="FindKind" Header="_Узнать вид" Click="FindKind_Click"/>
+            <MenuItem x:Name="Help" Header="_Справка" Click="Help_Click"/>
+            <MenuItem x:Name="AboutProgram" Header="_О программе" Click="AboutProgram_Click"/>
         </Menu>
         <DockPanel DockPanel.Dock="Top" LastChildFill="False">
             <GroupBox FontSize="12">
@@ -60,7 +60,7 @@
                 </GroupBox.Header>
                 <DockPanel LastChildFill="False">
                     <Label Content="Вид четырехугольника:"/>
-                    <TextBox x:Name="Result" Height="25" Width="100" Margin="3" IsReadOnly="True"/>
+                    <TextBox x:Name="Result" Height="25" Width="250" Margin="3" IsReadOnly="True"/>
                 </DockPanel>
             </GroupBox>
         </DockPanel>
