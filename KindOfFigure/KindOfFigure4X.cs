@@ -85,7 +85,7 @@ namespace KindOfFigure
                 double provePifagor;
                 if (_iDiag == 0)
                 {
-                    provePifagor = Math.Pow(mas[0], 2) + Math.Pow(mas[3], 2);
+                    provePifagor = Math.Pow(mas[0], 2) + Math.Pow(mas[1], 2);
                 }
                 else
                 {
