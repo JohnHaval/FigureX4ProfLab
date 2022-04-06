@@ -137,5 +137,11 @@ namespace FigureX4ProfLab
                 "трапеция общего вида, четырехугольник общего вида.", "О программе",
                 MessageBoxButton.OK, MessageBoxImage.Information);
         }
+
+        private void Clear_Click(object sender, RoutedEventArgs e)
+        {
+            Result.Clear();
+            X1.Text = X2.Text = X3.Text = X4.Text = Y1.Text = Y2.Text = Y3.Text = Y4.Text = "";
+        }
     }
 }

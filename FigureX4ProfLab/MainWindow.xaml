@@ -9,6 +9,7 @@
     <DockPanel LastChildFill="False">
         <Menu DockPanel.Dock="Top">
             <MenuItem x:Name="FindKind" Header="_Узнать вид" Click="FindKind_Click"/>
+            <MenuItem x:Name="Clear" Header="О_чистка" ToolTip="Выполняет очистку результата и сторон" Click="Clear_Click"/>
             <MenuItem x:Name="Help" Header="_Справка" Click="Help_Click"/>
             <MenuItem x:Name="AboutProgram" Header="_О программе" Click="AboutProgram_Click"/>
         </Menu>
